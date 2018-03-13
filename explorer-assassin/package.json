@@ -1,0 +1,10 @@
+{
+  "name": "explorer-assasin",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "author": "tengis b.",
+  "license": "MIT",
+  "dependencies": {
+    "tape": "^4.9.0"
+  }
+}
