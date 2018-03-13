@@ -6,5 +6,12 @@
   "license": "MIT",
   "dependencies": {
     "tape": "^4.9.0"
+  },
+  "scripts": {
+    "start": "node ./src",
+    "test": "colortape ./src/index.test.js"
+  },
+  "devDependencies": {
+    "colortape": "^0.1.2"
   }
 }
