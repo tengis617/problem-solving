@@ -6,7 +6,6 @@ const run = (max) => {
   return doors
 }
 const toggleDoors = (doors, skip = 1) => doors.map((d, i) => (i + 1) % skip === 0 ? toggleDoor(d) : d)
-
 const toggleDoor = d => isOpen(d) ? 0 : 1
 const isOpen = d => d === 1
 
