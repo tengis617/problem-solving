@@ -1,7 +1,5 @@
 const run = (max) => {
-  console.log(max - 1)
   let doors = Array(100).fill(0)
-
   for (let i = 1; i <= max; i++) {
     doors = toggleDoors(doors, i)
   }
