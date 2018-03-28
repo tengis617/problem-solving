@@ -1,8 +1,6 @@
 ## Zig-zag matrix
 A zig-zag array is a square arrangement of the first N^2 integers, where the 
 numbers increase sequentially as you zig-zag along the array's anti-diagonals.
-![zigzag](https://github.com/tengis617/problem-solving/blob/master/zig-zag-matrix/img/zigzag.svg.png)
-
 
 For example, given   5,   produce this array:
 ```
@@ -15,3 +13,8 @@ For example, given   5,   produce this array:
 
 ### Task
 Produce a zig-zag array.
+
+**Source:** [rosettacode](http://rosettacode.org/wiki/Zig-zag_matrix)
+
+**Zig Zag Matrix graphical representation:**
+![zigzag](https://github.com/tengis617/problem-solving/blob/master/zig-zag-matrix/img/zigzag.svg.png)
